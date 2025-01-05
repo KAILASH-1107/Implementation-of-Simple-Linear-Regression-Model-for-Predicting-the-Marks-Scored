@@ -20,6 +20,9 @@ To write a program to predict the marks scored by a student using the simple lin
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by:V.KAILASH
 RegisterNumber:24001383
+
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,18 +64,60 @@ print('MSE = ',mse)
 mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
-print("RMSE= ",rmse) 
+print("RMSE= ",rmse)
 */
 ```
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
-![Screenshot (15)](https://github.com/user-attachments/assets/364d5cdc-358f-44ba-a84f-66a67c6c341b)
-![Screenshot (14)](https://github.com/user-attachments/assets/41f05500-a0e8-44db-bc38-2739a2075953)
-![Screenshot (13)](https://github.com/user-attachments/assets/ae238daa-0db7-473c-8e8e-c0b27e319428)
-![Screenshot (12)](https://github.com/user-attachments/assets/817b798d-486f-4dd4-bb30-9169f7fd7505)
 
 
+Dataset
+
+![Screenshot (107)](https://github.com/user-attachments/assets/5f03b0a0-7507-435e-8f36-3aa93ba097f1)
+
+
+
+Head Values
+
+![Screenshot (108)](https://github.com/user-attachments/assets/0513590b-559e-43a4-ab52-a9f1b06adc6b)
+
+
+Tail Values
+
+![Screenshot (109)](https://github.com/user-attachments/assets/fb44c489-8012-4261-a945-e41dab5d2733)
+
+
+X and Y Values
+
+
+![Screenshot (110)](https://github.com/user-attachments/assets/e9bd2a43-9f04-4db5-9484-d333c5da2538)
+
+
+
+Prediction values of X and Y
+
+
+![Screenshot (111)](https://github.com/user-attachments/assets/64ff71a9-4e81-436b-827d-ce23fb6c5898)
+
+
+MSE,MAE and RMSE
+
+
+![Screenshot (115)](https://github.com/user-attachments/assets/63530946-c593-4421-86d8-af9b0523974a)
+
+
+
+Training Set
+
+
+![Screenshot (112)](https://github.com/user-attachments/assets/dd36b3e3-a41f-41a9-8f47-06aaacb6b930)
+
+
+Testing Set
+
+
+![Screenshot (114)](https://github.com/user-attachments/assets/e60db5ba-9d32-464e-8e2d-0eb827eaa835)
 
 
 
